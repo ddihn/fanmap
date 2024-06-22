@@ -8,21 +8,20 @@ export const Container = styled.div`
 `;
 export const BackBtn = styled.div`
   color: #fff;
-  padding-left: 30px; /* 왼쪽 여백 */
+  padding-left: 30px;
   padding-top: 15px;
 `;
 export const Nav = styled.div`
-  display: flex; /* 요소들을 가로로 나란히 배치하기 위해 flex 사용 */
-  justify-content: space-between; /* 요소들 사이의 간격을 동일하게 배치 */
-
+  display: flex;
+  justify-content: space-between;
   width: 390px;
   height: 7vh;
   flex-shrink: 0;
   background: linear-gradient(96deg, #402846 54.12%, #e42a89 96.19%);
 `;
 export const Title = styled.div`
-  display: flex; /* 자식 요소들을 가로로 나란히 배치 */
-  align-items: center; /* 자식 요소들을 세로로 가운데 정렬 */
+  display: flex;
+  align-items: center;
   color: #fff;
   font-family: "SUIT Variable";
   font-size: 16px;
@@ -30,14 +29,13 @@ export const Title = styled.div`
   font-weight: 800;
   line-height: normal;
   img {
-    margin-right: 10px; /* 이미지 오른쪽에 공백 추가 */
+    margin-right: 10px;
   }
 `;
 export const Write = styled.div`
   color: #fff;
   padding: 10px;
-  padding-right: 30px; /* 오른쪽 여백 */
-
+  padding-right: 30px;
   padding-top: 15px;
 `;
 export const Content = styled.div`
@@ -133,12 +131,12 @@ export const Content2 = styled.div`
   background: #fff;
 `;
 export const StyledList = styled.div`
-  list-style-type: none; /* 리스트 마커 제거 */
-  padding: 0; /* 내부 패딩 제거 */
+  list-style-type: none;
+  padding: 0;
 `;
 
 export const ListItem = styled.div`
-  justify-content: space-between; /* 아이템들 사이의 간격을 동일하게 배치 */
-  align-items: center; /* 아이템들을 세로로 가운데 정렬 */
-  margin-bottom: 20px; /* 아이템들 사이의 간격 */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 `;
