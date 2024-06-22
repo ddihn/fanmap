@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import * as C from "../styles/styledCommunity"; // 예시 파일명에 따라 수정해야 함
+import * as C from "../styles/styledCommunity";
 
 const Community = () => {
   const navigate = useNavigate();
@@ -17,7 +17,7 @@ const Community = () => {
     } else {
       setCount(count - 1);
     }
-    setIsIncrease(!isIncrease); // 속성을 반대로 변경
+    setIsIncrease(!isIncrease);
   };
 
   return (
