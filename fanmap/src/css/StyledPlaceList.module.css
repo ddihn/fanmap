@@ -1,0 +1,110 @@
+.container {
+  width: 390px;
+  height: 844px;
+}
+
+.titleBar {
+  float: left;
+  position: relative;
+  bottom: 750px;
+  left: 20px;
+}
+.backBtn {
+  padding-right: 70px;
+}
+.placeicon {
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+}
+.deleteBtn {
+  height: 15px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  left: 290px;
+  bottom: 20px;
+}
+.gTitle {
+  position: relative;
+  right: 10px;
+}
+.goodPlace {
+  position: relative;
+  bottom: 680px;
+  right: 170px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.store {
+  float: left;
+  position: relative;
+  left: 200px;
+  padding-bottom: 15px;
+}
+.storeName,
+.bookmarkIcon {
+  float: left;
+}
+.bookmarkIcon {
+  position: relative;
+  top: 4px;
+}
+
+.storeName {
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.address {
+  width: 150px;
+  height: 23px;
+  font-size: 8px;
+  font-weight: 400;
+  float: left;
+  position: relative;
+  top: 20px;
+  right: 47px;
+}
+
+.detail {
+  width: 83px;
+  height: 20px;
+  border-radius: 20px;
+  background: var(
+    --button,
+    linear-gradient(101deg, #e42a89 -2.02%, #402846 70.2%)
+  );
+  position: relative;
+  top: 10px;
+  left: 130px;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+  padding: 2px;
+}
+.dtext {
+  position: relative;
+  bottom: 20px;
+}
+.sTitle {
+  position: relative;
+  top: 200px;
+  right: 40px;
+}
+
+.sharePlace {
+  position: relative;
+  bottom: 620px;
+  right: 170px;
+}
+.eTitle {
+  position: relative;
+  top: 400px;
+  right: 43px;
+}
+.etcPlace {
+  position: relative;
+  bottom: 580px;
+  right: 170px;
+}
