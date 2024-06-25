@@ -38,7 +38,6 @@ const Community = () => {
       </C.Nav>
       <C.Content>
         <C.StyledList>
-          {/* Usage of CommunityItem */}
           <CommunityItem
             nickname="nickname1"
             username="@aakw1234"

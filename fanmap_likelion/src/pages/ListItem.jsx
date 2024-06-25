@@ -11,7 +11,7 @@ const ListItem = ({
   starImage,
   chatIcon,
   addMylistImage,
-  editVisible: initialEditVisible, // props로 받아온 editVisible를 initialEditVisible로 변경
+  editVisible: initialEditVisible,
 }) => {
   const [count, setCount] = useState(371);
   const [isIncrease, setIsIncrease] = useState(true);
@@ -20,22 +20,20 @@ const ListItem = ({
     `${process.env.PUBLIC_URL}/images/goComment2.svg`
   );
   const [isItClicked, setIsItClicked] = useState(false);
-  const [editVisible, setEditVisible] = useState(false); // editVisible 상태 추가
+  const [editVisible, setEditVisible] = useState(false);
 
   const [showPopup, setShowPopup] = useState(false);
   const [showPopup2, setShowPopup2] = useState(false);
   const [copyMessage, setCopyMessage] = useState("");
   const [deleteMessage, setDeleteMessage] = useState("");
   const handleClick = () => {
-    setShowPopup(true); // 팝업 표시
+    setShowPopup(true);
   };
 
   const closePopup = () => {
-    setShowPopup(false); // 팝업 닫기
+    setShowPopup(false);
   };
   const handleCopy = () => {
-    // 복사 기능 추가 및 완료 메시지 설정
-    // 여기서는 간단하게 setTimeout을 사용하여 시뮬레이션합니다.
     navigator.clipboard.writeText("링크 복사 내용"); // 실제 클립보드에 복사하는 코드
 
     setCopyMessage(
@@ -50,7 +48,7 @@ const ListItem = ({
     setTimeout(() => {
       setShowPopup(false);
       setCopyMessage("");
-    }, 1000); // 2초 후 메시지 초기화
+    }, 1000);
   };
   const handleClick2 = () => {
     setShowPopup2(true); // 팝업 표시

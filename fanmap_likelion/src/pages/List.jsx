@@ -1,5 +1,3 @@
-// List.jsx
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import ListItem from "./ListItem";
@@ -9,7 +7,6 @@ import * as L from "../styles/styledList";
 const List = () => {
   const navigate = useNavigate();
 
-  // 이전 페이지로 이동하는 함수
   const goBack = () => {
     navigate("/");
   };

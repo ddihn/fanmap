@@ -268,7 +268,7 @@ export const C82 = styled.div`
     padding-top: 20px;
     padding-bottom: 10px;
     border: 0;
-    z-index: 1000; /* 팝업이 다른 요소 위에 표시되도록 z-index 설정 */
+    z-index: 1000;
     border-radius: 20px;
 
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
@@ -337,7 +337,7 @@ export const C82 = styled.div`
     padding-top: 20px;
     padding-bottom: 10px;
     border: 0;
-    z-index: 1000; /* 팝업이 다른 요소 위에 표시되도록 z-index 설정 */
+    z-index: 1000;
     border-radius: 20px;
 
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
