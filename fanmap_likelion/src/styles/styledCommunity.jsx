@@ -114,22 +114,92 @@ export const C6 = styled.div`
   padding-bottom: 10px;
 `;
 export const C7 = styled.div`
+  color: var(--main1, #1d1d1d);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
   button {
     border: none;
     background: none;
     outline: none;
     cursor: pointer;
     padding: 0;
+    margin-right: 5px;
+  }
+
+  #chatIcon {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  #goComment {
+    margin-left: 10px;
   }
 `;
+export const C8 = styled.div`
+  z-index: 0;
+  button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
 
+    flex-shrink: 0;
+  }
+`;
+export const C82 = styled.div`
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  width: 80px;
+  z-index: 1;
+
+  span {
+    color: #fff;
+    text-align: center;
+    font-family: "SUIT Variable";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 20px;
+  }
+
+  #Star3 {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+  }
+`;
 export const Content2 = styled.div`
+  flex: 1;
   width: 343px;
-  height: 486px;
-  flex-shrink: 0;
   border-radius: 15px;
   background: #fff;
+  position: relative;
+  padding-left: 55px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
 `;
+export const Content3 = styled.div`
+  flex: 1;
+  width: 343px;
+  border-radius: 15px;
+  background: #fff;
+  position: relative;
+  padding-left: 55px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+`;
+
 export const StyledList = styled.div`
   list-style-type: none;
   padding: 0;

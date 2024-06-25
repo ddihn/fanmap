@@ -10,6 +10,7 @@ const Main = () => {
   const goCommunity = () => {
     navigate("/community");
   };
+
   return (
     <Ma.Container>
       <Ma.CommunityBtn onClick={goCommunity}>
