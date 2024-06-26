@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import * as W from "../styles/styledWrite";
+import * as W from "../css/styledWrite";
 
 const Write = () => {
   const navigate = useNavigate();

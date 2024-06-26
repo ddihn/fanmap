@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import * as C from "../styles/styledCommunity";
+import * as C from "../css/styledCommunity";
 
 const CommunityItem = ({ nickname, username, date, content, img }) => {
   const [isIncrease, setIsIncrease] = useState(true);

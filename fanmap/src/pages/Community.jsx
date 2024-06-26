@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import * as C from "../styles/styledCommunity";
+import * as C from "../css/styledCommunity";
 import CommunityItem from "./CommunityItem";
 
 const Community = () => {

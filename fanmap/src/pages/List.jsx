@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import ListItem from "./ListItem";
 
-import * as L from "../styles/styledList";
+import * as L from "../css/styledList";
 
 const List = () => {
   const navigate = useNavigate();

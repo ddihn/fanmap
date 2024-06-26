@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as L from "../styles/styledList";
+import * as L from "../css/styledList";
 
 const ListItem = ({
   profileImage,
