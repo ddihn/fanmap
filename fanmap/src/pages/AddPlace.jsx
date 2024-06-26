@@ -6,7 +6,7 @@ function AddPlace() {
   const navigate = useNavigate();
   const handleBackClick = () => {
     navigate(-1);
-  };
+  }; //함수
   return (
     <div className={A.container}>
       <div className={A.titleBar}>
