@@ -6,7 +6,7 @@ import CommunityItem from "./CommunityItem";
 const Community = () => {
   const navigate = useNavigate();
   const goBack = () => {
-    navigate("/");
+    navigate("/main");
   };
 
   const goWrite = () => {
