@@ -15,6 +15,16 @@ function Main() {
     navigate("/placelist");
   };
 
+  const handleCommunityClick = () => {
+    console.log("Community clicked");
+    navigate("/community");
+  };
+
+  const handleMainClick = () => {
+    console.log("Main clicked");
+    navigate("/main");
+  };
+
   return (
     <div className={N.container}>
       <img
@@ -32,12 +42,16 @@ function Main() {
 
       <div className={N["btn-wrapper"]}>
         <div className={N.menu}>
-          <img src="/img/menu.png" alt="menu" />
+          <img src="/img/menu.png" alt="menu" onClick={handleMenuClick} />
         </div>
         <div className={N.community}>
-          <img src="/img/community.png" alt="community" />
+          <img
+            src="/img/community.png"
+            alt="community"
+            onClick={handleCommunityClick}
+          />
         </div>
-        <div className={N.main}>
+        <div className={N.main} onClick={handleMainClick}>
           <img src="/img/ellipse.png" alt="ellipse" />
           <img src="/img/main.png" alt="main" className={N.mainlogo} />
         </div>
