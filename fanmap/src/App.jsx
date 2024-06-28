@@ -11,6 +11,7 @@ import AddPlace from "./pages/AddPlace";
 import List from "./pages/List";
 import Community from "./pages/Community";
 import Write from "./pages/Write";
+import ModifyProfile from "./pages/Modifyprofile";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/list" element={<List />} />
         <Route path="/community" element={<Community />} />
         <Route path="/write" element={<Write />} />
+        <Route path="/modifyprofile" element={<ModifyProfile />} />
       </Routes>
     </Router>
   );

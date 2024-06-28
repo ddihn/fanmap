@@ -274,7 +274,7 @@ export const C82 = styled.div`
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
     max-width: 300px;
     max-height: 151px;
-    color: var(--main1, #1d1d1d);
+    color: #000;
     text-align: center;
     font-family: "SUIT Variable";
     font-size: 18px;
