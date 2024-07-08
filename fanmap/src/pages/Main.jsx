@@ -52,7 +52,6 @@ function Main() {
           />
         </div>
         <div className={N.main} onClick={handleMainClick}>
-          <img src="/img/ellipse.png" alt="ellipse" />
           <img src="/img/main.png" alt="main" className={N.mainlogo} />
         </div>
         <div className={N.list} onClick={handleListClick}>

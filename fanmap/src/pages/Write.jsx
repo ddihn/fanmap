@@ -26,8 +26,7 @@ const Write = () => {
       </W.Nav>
       <W.Content>
         <input id="inputTitle" placeholder="제목이 들어갑니다." />
-        <p>아랫줄로 내리면 내용 속성으로 바뀝니다.</p>
-        <p>아래 미디어 추가할 수 있습니다.</p>
+        <input type="text" className="mainText" />
         <img
           src={`${process.env.PUBLIC_URL}/images/Rectangle39.png`}
           alt="addimage"

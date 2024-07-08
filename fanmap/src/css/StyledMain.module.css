@@ -17,8 +17,8 @@
   background-position: 10px;
   border: none;
 }
-input {
-  padding-left: 50px;
+.searchbar {
+  padding-left: 40px;
 }
 .searchbar:focus {
   outline: none;
@@ -48,7 +48,8 @@ input {
 }
 .main {
   position: relative;
-  top: 10px;
+  top: 6px;
+  right: 3px;
 }
 .mainlogo {
   float: left;
@@ -59,8 +60,8 @@ input {
 .list {
   float: left;
   position: relative;
-  left: 265px;
-  bottom: 43px;
+  left: 75px;
+  top: 11px;
 }
 
 .menu,
