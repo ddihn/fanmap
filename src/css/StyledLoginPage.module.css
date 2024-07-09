@@ -7,7 +7,7 @@
   bottom: 740px;
   left: 120px;
 }
-.logo-text {
+.logoText {
   position: relative;
   bottom: 740px;
   left: 110px;
@@ -20,34 +20,34 @@
   color: #fff;
 }
 
-.login-box {
+.loginBox {
+  color: #fff;
+  border: none;
+  padding-left: 20px;
   position: relative;
   bottom: 680px;
   left: 75px;
-  width: 226px;
+  width: 206px;
   height: 39px;
   border-radius: 20px;
   background: rgba(29, 29, 29, 0.65);
-  margin-top: 10px;
+  margin-top: 10px; 
 }
 
-.login-box::placeholder {
+.loginBox::placeholder {
   color: #fff;
   font-family: "SUIT Variable";
   font-size: 14px;
   font-weight: 400;
-  padding-left: 10px;
 }
 
-.login-box {
-  border: none;
-}
-.login-box:focus {
+.loginBox:focus {
   outline: none;
+  color: #fff;
 }
-
-.mem-join-btn,
-.login-btn {
+.memJoinBtn,
+.loginBtn {
+  color: #fff;
   width: 112px;
   height: 32px;
   border-radius: 20px;
@@ -63,23 +63,23 @@
   padding-top: 10px;
   text-decoration: none;
 }
-.mem-join-btn:visited {
+.memJoinBtn:visited {
   color: #fff;
 }
-.mem-join-btn:hover {
+.memJoinBtn:hover {
   color: gray;
 }
 
-.mem-join-btn:active {
+.memJoinBtn:active {
   color: #fff;
 }
 
-.login-btn {
+.loginBtn {
   left: 90px;
 }
 
-.find-id,
-.find-pw {
+.findId,
+.findPw {
   color: #fff;
   font-family: "SUIT Variable";
   font-size: 14px;
@@ -89,10 +89,10 @@
   bottom: 600px;
 }
 
-.find-id {
+.findId {
   right: 130px;
 }
-.find-pw {
+.findPw {
   bottom: 617px;
   right: 10px;
 }
@@ -102,15 +102,17 @@
   float: inline-end;
   margin-left: 25px;
 }
-.login-platform-wrapper {
+.loginPlatformWp{
+  color: #fff;
   position: relative;
   bottom: 550px;
+  left: 45px;
   width: 296px;
   height: 245px;
   border-top: 1px solid #fff;
 }
-.login-google,
-.login-kakao {
+.loginGoogle,
+.loginKakao {
   float: left;
   text-align: center;
   width: 226px;

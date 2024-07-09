@@ -2,37 +2,34 @@
   display: flex;
   align-items: center;
 }
-.fx-0 {
+.fx0 {
   flex: 0.8;
 }
-.fx-1 {
+.fx1 {
   flex: 1.2;
 }
-.fx-3 {
+.fx3 {
   flex: 3;
 }
-body {
+
+.form {
   font-family: "SUIT Variable";
   font-weight: 700;
-}
-div {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  color: #fff;
-}
-.form {
   width: 390px;
   height: 844px;
   background: var(--main2, #402846);
   padding: 1px;
   padding-left: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #fff;
 }
-.join-title {
+.joinTitle {
   font-size: 16px;
   margin-top: 60px;
 }
-.noti {
+.notif {
   color: var(--point1, #e42a89);
   font-size: 8px;
   font-weight: 300;
@@ -46,8 +43,8 @@ div {
   margin-top: 30px;
   font-size: 12px;
 }
-.default-style-none,
-email-box::placeholder,
+.defaultStyleNone,
+emailBox::placeholder,
 input[type="date"] {
   border-radius: 5px;
   background: #cdbacb;
@@ -56,11 +53,11 @@ input[type="date"] {
   font-size: 10px;
   color: #575050;
 }
-.input-box {
+.inputBox {
   width: 200px;
   height: 22px;
 }
-.dd-box {
+.ddBox {
   width: 60px;
   height: 23px;
   text-align: center;
@@ -68,33 +65,55 @@ input[type="date"] {
 input {
   padding-left: 10px;
 }
-.email-box {
+.emailBox {
   width: 120px;
   height: 21px;
   margin-right: 10px;
+  color:  #1D1D1D;
+  font-family: "SUIT Variable";
+  font-size: 10px;
+  font-weight: 200;
 }
 
-.dd-box-email {
+.ddBoxEmail {
   width: 85px;
   height: 23px;
   text-align: center;
 }
-.profile-img {
+.profileImg {
   float: left;
   margin-top: 20px;
 }
-
-.profile-title,
-.agreement-title {
+.addImg{
+  display: inline-block;
+  position: relative;
+  right: 15px
+}
+.profileTitle,
+.agreementTitle {
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-.bir-date {
+.nicknameWrapper{
+  position: relative;
+  left: 16px;
+}
+.nicknameBox{
+  width: 120px;
+  height: 22px;
+}
+.birthWrapper{
+  position: relative;
+  bottom: 20px;
+  left: 16px;
+}
+.birDate {
   position: relative;
   margin-top: 5px;
   margin-left: 15px;
 }
+
 input[type="date"] {
   width: 85px;
   height: 22px;
@@ -102,7 +121,6 @@ input[type="date"] {
   color: transparent;
   border-radius: 4px;
   position: relative;
-  left: 4px;
   z-index: 1;
 }
 
@@ -132,10 +150,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   z-index: 2;
 }
-.star-wrapper {
+.starWrapper {
   position: relative;
-  bottom: 23px;
-  left: 16px;
+  bottom: 40px;
+  left: 91px;
+}
+.starBox{
+  width:65px;
+  position: relative;
+  right: 15px;
+}
+.agreementWrapper{
+  position: relative;
+  bottom: 25px;
 }
 
 .agreement {
@@ -161,8 +188,9 @@ input[type="checkbox"]:checked {
   background: #fff;
   border: none;
 }
-.complete-btn {
+.completeBtn {
   position: relative;
+  bottom: 45px;
   margin-top: 55px;
   margin-left: 30px;
   width: 295px;
@@ -180,7 +208,7 @@ input[type="checkbox"]:checked {
     0px 4px 4px 0px rgba(71, 195, 253, 0.25) inset;
 }
 
-.complete-cmt {
+.completeCmt {
   position: relative;
   top: 15px;
 }

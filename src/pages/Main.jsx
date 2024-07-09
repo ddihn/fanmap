@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import N from "../css/StyledMain.module.css";
+import Menu from "./Menu"; 
 
 function Main() {
   const navigate = useNavigate();
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
   const handleMenuClick = () => {
     console.log("Menu clicked");
-    navigate("/menu");
+    setIsMenuOpen(true); 
   };
 
   const handleListClick = () => {
@@ -23,6 +25,10 @@ function Main() {
   const handleMainClick = () => {
     console.log("Main clicked");
     navigate("/main");
+  };
+
+  const handleCloseMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -58,6 +64,8 @@ function Main() {
           <img src="/img/list.png" alt="list" />
         </div>
       </div>
+
+      {isMenuOpen && <Menu onClose={handleCloseMenu} />} 
     </div>
   );
 }

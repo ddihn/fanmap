@@ -15,11 +15,7 @@ function Store({ storeName, address }) {
       </div>
       <div className={P.storeName}>{storeName}</div>
       <div className={P.address}>{address}</div>
-      <div className={P.detail}>
-        <span className={P.dtext} onClick={handleDetailClick}>
-          자세히 보기
-        </span>
-      </div>
+      <div className={P.detail}><span className={P.dText} style={{width:"180px"}}>자세히 보기</span></div>
     </div>
   );
 }
@@ -96,6 +92,7 @@ function PlaceList() {
           />
         </div>
       </div>
+      <div className={P.blur}></div>
     </div>
   );
 }
